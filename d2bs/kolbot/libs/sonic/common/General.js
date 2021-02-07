@@ -13,7 +13,7 @@ const General = (function() {
                 Config.AttackSkill[1] = 59; // Primary skill to bosses.
                 Config.AttackSkill[2] = 45; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
                 Config.AttackSkill[3] = 59; // Primary skill to others.
-                Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
+                Config.AttackSkill[4] = 45; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
             }
 
             if (!me.normal || (!me.classic && Pather.accessToAct(5))) {
